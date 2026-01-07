@@ -92,6 +92,7 @@
   boddy{
     display: flex;
     flex-direction: center;
+    margin: 0;
   }
   .box {
     width: 90%;

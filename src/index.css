@@ -90,13 +90,15 @@
 /* Tablets */
 @media (max-width: 1024px) {
   boddy{
-    display: flex;
-    flex-direction: center;
-    margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  margin: 0;
+
   }
   .box {
-    width: 80%;
-    margin: 100px auto 0 auto;
+   width: 80%;
+   margin: 100px auto 0 auto;
   }
   .nav-title {
     font-size: 18px;

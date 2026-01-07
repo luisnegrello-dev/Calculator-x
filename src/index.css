@@ -4,6 +4,7 @@
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   margin: 0;
+  padding-top: 100px;
   min-height: 100vh;
 }
 
@@ -38,7 +39,6 @@
   border-radius: 15px;
   color: white;
   width: 800px;
-  margin: 120px auto 0 auto;
 }
 
 .input {
@@ -78,7 +78,7 @@
   padding: 20px;
   background: rgba(255,255,255,0.1);
   border-radius: 10px;
-  color: rgb(226, 49, 49);
+  color: rgb(90, 226, 49);
   white-space: pre-line;
   text-align: left;
   font-size: 18px;
@@ -97,7 +97,6 @@
   }
   .box {
    width: 80%;
-   margin: 0 auto;
   }
   .nav-title {
     font-size: 18px;

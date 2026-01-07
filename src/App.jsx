@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo from "./download.png"; // sua logo
+import "./index.css";
+
 
 function App() {
   const [a, setA] = useState("");

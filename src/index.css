@@ -1,3 +1,159 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Estilo base (desktop) */
+.body {
+  background-color: rgb(247, 249, 252);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.nav {
+  background-color: #333;
+  padding: 20px 25px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-logo {
+  width: 140px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.nav-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(238, 255, 0);
+}
+
+.box {
+  background: rgba(0,0,0,0.6);
+  padding: 50px;
+  border-radius: 15px;
+  color: white;
+  width: 800px;
+  margin: 120px auto 0 auto;
+}
+
+.input {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  width: 200px;
+  background-color: slateblue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: cornflowerblue;
+}
+
+.button.limpar {
+  background-color: crimson;
+}
+
+.button.limpar:hover {
+  background-color: darkred;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  color: rgb(90, 226, 49);
+  white-space: pre-line;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Responsividade */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .box {
+    width: 90%;
+    padding: 30px;
+  }
+  .nav-title {
+    font-size: 18px;
+  }
+  .input {
+    font-size: 18px;
+  }
+  .button {
+    width: 160px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+  .nav-logo {
+    width: 120px;
+    height: 35px;
+  }
+  .nav-title {
+    font-size: 16px;
+    text-align: center;
+  }
+  .box {
+    width: 95%;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+  }
+  .input {
+    font-size: 16px;
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+    font-size: 16px;
+  }
+  .resultado {
+    font-size: 16px;
+  }
+}
+
+/* Telas muito pequenas */
+@media (max-width: 480px) {
+  .nav-title {
+    font-size: 14px;
+  }
+  .box {
+    padding: 15px;
+  }
+  .input {
+    font-size: 14px;
+    padding: 15px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .resultado {
+    font-size: 14px;
+  }
+}

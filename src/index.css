@@ -92,6 +92,7 @@
   .box {
     width: 90%;
     padding: 30px;
+    margin: 100px auto 0 auto;
   }
   .nav-title {
     font-size: 18px;

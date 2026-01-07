@@ -95,7 +95,7 @@
   }
   .box {
     width: 90%;
-    padding: 30px;
+    padding: auto;
     margin: 100px auto 0 auto;
   }
   .nav-title {

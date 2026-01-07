@@ -89,6 +89,10 @@
 
 /* Tablets */
 @media (max-width: 1024px) {
+  boddy{
+    display: flex;
+    flex-direction: center;
+  }
   .box {
     width: 90%;
     padding: 30px;

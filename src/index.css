@@ -98,9 +98,10 @@
   }
   .input {
     font-size: 18px;
+    width: 80%;
   }
   .button {
-    width: 160px;
+    width: 80%;
   }
 }
 

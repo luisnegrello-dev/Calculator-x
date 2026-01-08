@@ -90,7 +90,7 @@
 }
 
 @media (max-width: 1024px) {
-  .boddy{
+  .body{
   display: flex;
   justify-content: center; 
   align-items: flex-start;
@@ -98,7 +98,9 @@
   }
   .box {
    width: 80%;
-   margin: 100px auto 0 auto;
+   align-items: center;
+   padding: auto;
+   margin:0 auto;
   }
   .nav-title {
     font-size: 18px;
@@ -113,11 +115,11 @@
 }
 
 @media (max-width: 768px) {
-   .boddy{
-  display: flex;
-  justify-content: center; 
-  align-items: flex-start;
-  margin: 0;
+   .body{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    margin: 0;
   }
   .nav {
     gap: 10px;
@@ -135,8 +137,7 @@
     width: 95%;
     align-items: center;
     padding: auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin:0 auto;
   }
   .input {
     font-size: 16px;

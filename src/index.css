@@ -129,9 +129,8 @@
   }
   .box {
     width: 95%;
-    margin: 100px auto 0 auto;
+    align-items: center;
     padding: auto;
-    position: fixed;
     margin-left: 0;
     margin-right: 0;
   }

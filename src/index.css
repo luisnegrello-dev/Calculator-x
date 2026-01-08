@@ -5,7 +5,7 @@
   text-align: center;
   margin: 0;
   padding-top: 100px;
-  
+  min-height: 100vh;
 }
 
 .nav {
@@ -15,6 +15,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1000;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -97,10 +98,10 @@
   margin: 0;
   }
   .box {
-   width: 80%;
-   align-items: center;
-   padding: auto;
-   margin:0 auto;
+  width: 95%;
+  align-items: center;
+  padding: 50px; /* mantém o mesmo padding do desktop */
+  margin: 0 auto;
   }
   .nav-title {
     font-size: 18px;
@@ -116,10 +117,10 @@
 
 @media (max-width: 768px) {
    .body{
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start;
-    margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  margin: 0;
   }
   .nav {
     gap: 10px;
@@ -135,9 +136,9 @@
   }
   .box {
     width: 95%;
-    align-items: center;
-    padding: auto;
-    margin:0 auto;
+   align-items: center;
+   padding: auto;
+   margin: 0 auto;
   }
   .input {
     font-size: 16px;

@@ -39,6 +39,7 @@
   border-radius: 15px;
   color: white;
   width: 800px;
+  margin: 120px auto 0 auto;
 }
 
 .input {
@@ -84,9 +85,6 @@
   font-size: 18px;
 }
 
-/* Responsividade */
-
-/* Tablets */
 @media (max-width: 1024px) {
   boddy{
   display: flex;
@@ -97,6 +95,7 @@
   }
   .box {
    width: 80%;
+   margin: 100px auto 0 auto;
   }
   .nav-title {
     font-size: 18px;
@@ -110,7 +109,6 @@
   }
 }
 
-/* Smartphones */
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
@@ -143,7 +141,7 @@
   }
 }
 
-/* Telas muito pequenas */
+
 @media (max-width: 480px) {
   .nav-title {
     font-size: 14px;

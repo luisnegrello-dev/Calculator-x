@@ -88,7 +88,7 @@ function App() {
           className="input"
         />
 
-        <button onClick={calcular} className="button">Calcular</button>
+        <button onClick={calcular} className="button calcular">Calcular</button>
         <button onClick={limpar} className="button limpar">Limpar</button>
 
         <div className="resultado">{resultado}</div>

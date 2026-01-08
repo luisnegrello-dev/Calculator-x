@@ -50,12 +50,10 @@
   margin-bottom: 20px;
   border: none;
 }
-
 .button {
   padding: 10px;
   border: none;
   width: 200px;
-  background-color: slateblue;
   color: white;
   border-radius: 10px;
   cursor: pointer;
@@ -63,16 +61,22 @@
   font-size: large;
 }
 
-.button:hover {
-  background-color: cornflowerblue;
+
+.button.calcular{
+   background: linear-gradient(slateblue,rgb(54, 32, 199));
+   
+}
+
+.button.calcular:hover {
+  background: linear-gradient(rgb(54, 32, 199), slateblue);
 }
 
 .button.limpar {
-  background-color: crimson;
+  background: linear-gradient(crimson, darkred);
 }
 
 .button.limpar:hover {
-  background-color: darkred;
+  background: linear-gradient(darkred, crimson);
 }
 
 .resultado {
@@ -83,7 +87,7 @@
   color: rgb(90, 226, 49);
   white-space: pre-line;
   text-align: left;
-  font-size: 18px;
+  font-size: larger;
 }
 
 @media (max-width: 1024px) {

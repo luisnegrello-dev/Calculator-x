@@ -100,7 +100,7 @@
   .box {
   width: 95%;
   align-items: center;
-  padding: 50px; /* mantém o mesmo padding do desktop */
+  padding: 50px; 
   margin: 0 auto;
   }
   .nav-title {

@@ -131,7 +131,7 @@
   .box {
     width: 95%;
     margin: 100px auto 0 auto;
-    padding: 20px;
+    padding: auto;
   }
   .input {
     font-size: 16px;
